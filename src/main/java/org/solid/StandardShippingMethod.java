@@ -1,9 +1,12 @@
 package org.solid;
 
 public class StandardShippingMethod extends ShippingMethod {
+    public StandardShippingMethod(double weight, double distance) {
+        super(weight, distance);
+    }
 
     @Override
-    public double CalculateShippingCost(double weight, double distance) {
-        return 0.5 * weight * distance;
+    public double calculateShippingCost() {
+        return 0.5 * this.weight * this.distance;
     }
 }

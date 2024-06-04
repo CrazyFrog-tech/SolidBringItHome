@@ -8,7 +8,7 @@ class StandardShippingMethodTest {
 
     @Test
     void calculateShippingCost() {
-        StandardShippingMethod standardShippingMethod = new StandardShippingMethod();
-        assertEquals(25000, standardShippingMethod.CalculateShippingCost(100, 500));
+        StandardShippingMethod standardShippingMethod = new StandardShippingMethod(100, 500);
+        assertEquals(25000, standardShippingMethod.calculateShippingCost());
     }
 }

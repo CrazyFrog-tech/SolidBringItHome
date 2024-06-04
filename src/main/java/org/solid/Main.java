@@ -2,12 +2,9 @@ package org.solid;
 
 public class Main {
     public static void main(String[] args) {
-        ShippingMethod shippingMethod = new ExpressShippingMethod();
-        double cost = shippingMethod.CalculateShippingCost(10, 100);
-        System.out.println("Express shipping cost: " + cost);
-
-        shippingMethod = new StandardShippingMethod();
-        cost = shippingMethod.CalculateShippingCost(10, 100);
-        System.out.println("Standard shipping cost: " + cost);
+        IShippingCalculator shippingCalculator = new ExpressShippingCalculator(10, 100);
+        IShippingCalculator shippingCalculator2 = new StandardShippingCalculator(10, 100);
+        System.out.println("Express shipping cost: " + shippingCalculator.calculateShippingCost());
+        System.out.println("Standard shipping cost: " + shippingCalculator2.calculateShippingCost());
     }
 }
