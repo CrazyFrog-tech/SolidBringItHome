@@ -1,0 +1,23 @@
+
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+Q
+!src/main/java/org/solid/Main.java,2\7\277739569c45413fe3decce628445d77542df2aa
+U
+%src/test/java/org/solid/MainTest.java,2\0\20097ae11ddabb9942d8a45c4515a4f9eb076a62
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+g
+7src/test/java/org/solid/StandardShippingMethodTest.java,0\6\06033da819d930931574e9e2abb0a76629bb10eb
+c
+3src/main/java/org/solid/StandardShippingMethod.java,5\8\58f76b520759480695e62427c892ff78598a73d5
+f
+6src/test/java/org/solid/ExpressShippingMethodTest.java,4\e\4e5d7f682e28281607a1d14ca54d23dbd1c8bc8d
+b
+2src/main/java/org/solid/ExpressShippingMethod.java,1\b\1b0d77b49e84b4070ed616c926a8e2f187849ea3
+[
++src/main/java/org/solid/ShippingMethod.java,1\2\127f6bea8f6418f303906586329045430cdc8f4f
+\
+,src/main/java/org/solid/ExpressShipping.java,5\8\58a037243a2bf9e06464cad1eaa45616efe635e4
+_
+/src/main/java/org/solid/ShippingCalculator.java,1\9\19793a69f1408838372e0902044ec8005d3a03ac
