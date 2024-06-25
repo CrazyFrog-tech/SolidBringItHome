@@ -1,6 +1,6 @@
 package org.solid;
 
-public class ExpressShippingMethod extends ShippingMethod {
+public class ExpressShippingMethod extends ShippingMethod implements IDurationCalculator {
     public ExpressShippingMethod(double weight, double distance) {
         super(weight, distance);
     }
@@ -10,7 +10,8 @@ public class ExpressShippingMethod extends ShippingMethod {
         return 0.1 * this.weight * this.distance;
     }
 
-    public double calculateShippingDuration() {
+    @Override
+    public double calculateDurationCost() {
         return this.distance / 100 + 1;
     }
 }
