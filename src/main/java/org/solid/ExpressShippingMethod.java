@@ -9,4 +9,8 @@ public class ExpressShippingMethod extends ShippingMethod {
     public double calculateShippingCost() {
         return 0.1 * this.weight * this.distance;
     }
+
+    public double calculateShippingDuration() {
+        return this.distance / 100 + 1;
+    }
 }
