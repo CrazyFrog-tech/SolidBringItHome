@@ -3,6 +3,7 @@ package org.solid;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+import org.solid.methods.MemberShippingMethod;
 
 class MemberShippingMethodTest {
 

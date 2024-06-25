@@ -1,4 +1,4 @@
-package org.solid;
+package org.solid.methods;
 
 public abstract class ShippingMethod {
     public double weight;

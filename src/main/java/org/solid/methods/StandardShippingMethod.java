@@ -1,4 +1,4 @@
-package org.solid;
+package org.solid.methods;
 
 public class StandardShippingMethod extends ShippingMethod {
     public StandardShippingMethod(double weight, double distance) {

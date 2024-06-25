@@ -1,4 +1,7 @@
-package org.solid;
+package org.solid.calculators;
+
+import org.solid.interfaces.IShippingCalculator;
+import org.solid.methods.MemberShippingMethod;
 
 public class MemberShippingCalculator implements IShippingCalculator {
     private MemberShippingMethod shippingMethod;

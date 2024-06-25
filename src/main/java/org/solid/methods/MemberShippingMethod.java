@@ -1,4 +1,6 @@
-package org.solid;
+package org.solid.methods;
+
+import org.solid.interfaces.IDurationCalculator;
 
 public class MemberShippingMethod extends ShippingMethod implements IDurationCalculator {
     public MemberShippingMethod(double weight, double distance) {
