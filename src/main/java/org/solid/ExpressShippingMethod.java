@@ -1,6 +1,8 @@
 package org.solid;
 
-public class ExpressShippingMethod implements ShippingMethod{
+import org.solid.interfaceSegregation.DurationCalculator;
+
+public class ExpressShippingMethod implements ShippingMethod, DurationCalculator {
     private final double weight;
     private final double distance;
 
@@ -10,5 +12,8 @@ public class ExpressShippingMethod implements ShippingMethod{
     }
     @Override public double calculateCost() {
         return weight * distance * 0.1;
+    }
+    @Override public double calculateDuration() {
+        return this.distance / 100 + 1;
     }
 }
